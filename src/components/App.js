@@ -22,7 +22,8 @@ const App = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.dashboard}>
+      <main className={styles.dashboard}>
+        <h1 className={styles.srOnly}>Time Tracking Dashboard</h1>
         <HeaderCard
           profileImg={profileImg}
           name="Jeremy Robson"
@@ -30,7 +31,7 @@ const App = () => {
           setView={setView}
         />
         {renderStatsCard()}
-      </div>
+      </main>
     </div>
   );
 };

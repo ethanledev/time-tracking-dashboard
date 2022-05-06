@@ -9,24 +9,24 @@ const PREVIOUS_TIME = {
 
 const StatsCard = ({ title, current, previous, view }) => {
   return (
-    <div
+    <article
       className={`${styles.container} ${
         styles[title.replace(/ /g, "").toLowerCase()]
       }`}
     >
       <div className={styles.stats}>
-        <header>
-          <h1>{title}</h1>
+        <div>
+          <h2>{title}</h2>
           <EllipsisIcon />
-        </header>
-        <main>
+        </div>
+        <div>
           <div className={styles.current}>{current}hrs</div>
           <div
             className={styles.previous}
           >{`${PREVIOUS_TIME[view]} - ${previous}hrs`}</div>
-        </main>
+        </div>
       </div>
-    </div>
+    </article>
   );
 };
 

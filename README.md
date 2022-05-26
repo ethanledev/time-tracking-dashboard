@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/hieuhmle/time-tracking-dashboard)
-- Live Site URL: [Live site](https://hieuhmle.github.io/time-tracking-dashboard)
+- Solution URL: [Github Repo](https://github.com/hieulecoder/time-tracking-dashboard)
+- Live Site URL: [Live site](https://hieulecoder.github.io/time-tracking-dashboard)
 
 ## My process
 
